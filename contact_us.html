@@ -1,0 +1,288 @@
+<!doctype>
+            <html>
+
+     <head>
+
+
+<!--------------------------------------------------------------------  Cdn links  ------------------------------------------------------>
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+<!--cdn of type it -->
+<script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+<!--cdn of aos.js -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<!-- icon cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Add icon library -->
+
+<title>
+
+
+</title>
+
+
+<!--------------------------------------------------------------------  CSS ------------------------------------------------------>
+
+
+<style>
+
+#head{
+
+font-size:70px;
+
+font-family:cursive;
+
+color:black;
+text-align:center;
+
+margin-top:50px;
+
+
+}
+#main{
+border:1px solid ;
+
+margin-left:200px;
+margin-right:200px;
+border-radius:20px;
+margin-top:40px;
+background-color:white;
+padding:20px;
+}
+
+.input{
+
+margin:20px;
+}
+.inputf{
+
+	border:1px solid lightgrey;  margin:25px; border-radius:15px;
+
+}
+.font{
+
+  font-size:20px;
+ color:white;
+}
+
+</style>
+
+
+
+</head>
+<body class ="bg-light">
+
+
+	<!--------------------------------------------------------------------  Header  ------------------------------------------------------>
+
+
+
+<nav class="navbar navbar-expand-lg bg-dark ">
+
+ <a class="navbar-brand " href="#" style=""> <img class=" border rounded" src="assets/logo_img/web_logo.png" style="height: 130px;"> </a>
+
+
+   <button class="navbar-toggler" style="background-color:lightblue;" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse w-100 flex-md-column" id="navbarCollapse">
+    	
+                                    
+                            
+        <ul class="navbar-nav    " style="margin-right:180px;">
+
+           <li class="nav-item ">
+              <a class="nav-link font" href="Index.html">Home <span class="sr-only">(current)</span></a>
+           </li>
+          <li class="nav-item">
+              <a class="nav-link font" href="about_us.html" >About Us</a>
+           </li>
+           <li class="nav-item dropdown" >
+             <a class="nav-link dropdown-toggle font" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Our Product</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+             <a class="dropdown-item" href="durain_fur.html">Durain Furniture</a>
+          <a class="dropdown-item" href="urban_fur.html">Urban  Furniture</a>
+          <a class="dropdown-item" href="ashey_fur.html">Ashley Furniture</a>
+          <a class="dropdown-item" href="fortisi.html">Fortisi Furniture</a>
+          <a class="dropdown-item" href="danishf.html">Danish Furniture</a>
+          <a class="dropdown-item" href="furni.html">Furniture Com  </a>
+        
+      </li>
+      <li class="nav-item">
+        <a class="nav-link font" href="contact_us.html">Contact Us</a>
+      </li>
+        </ul>
+        
+    </div>
+</nav>
+
+<!--------------------------------------------------------------------Form ------------------------------------------------------>
+<div class =" " id="main" style="margin-top:80px;">
+<div class ="container-fluid container">
+<div class ="row ">
+
+<h1 id ="head"class ="col-sm-12"> Contact Us </h1>
+
+</div></div>
+<form  action="#">
+<div class ="inputf bg-light "> 
+<div class="input" >
+					<span class="label">FULL NAME *</span>
+					<input style="border:none;"class="form-control bg-light" type="text" name="name" placeholder="Enter Your Name"
+					 data-toggle="popover" title="Popover Header" data-content="e.g Use Alphabets" required>
+
+				</div></div>
+<div class ="row">
+
+<div  class="inputf col-md-6 bg-light"> 
+<div class="input">
+					<span class="label" >Email *</span>
+					<input style="border:none; "class="form-control bg-light" type="email" name="name" placeholder="Enter Your Name" data-toggle="popover" title="Popover Header" data-content="e.g ali@gmail.com" required >
+
+				</div></div>
+
+
+
+				<div class ="inputf col-md-4 bg-light"> 
+<div class="input" data-validate="Please Type Your Name">
+					<span class="label">Phone</span>
+					<input style="border:none;"class="form-control bg-light"  type="text" name="name" placeholder="Enter Your Name"pattern="[0-9]{11}"data-toggle="popover" title="Popover Header" data-content="e.g only number and 11 digit">
+
+				</div></div>
+
+
+</div>
+<div class ="inputf bg-light"> 
+<div class="input" data-validate="Please Type Your Name">
+					<span class="label">Service Needed *</span>
+					<select style="border:none;"class="form-control bg-light" name="name" placeholder="Enter Your Name">
+<option> Query   </option>
+<option> Complain   </option>
+<option>  Review  </option>
+</select>
+				</div></div>
+
+<div class ="inputf bg-light"> 
+<div class="input" data-validate="Please Type Your Name">
+					<span class="label">Your Message  </span>
+					<TEXTAREA style="border:none;"class="form-control bg-light"  name="name" placeholder="Enter Your Message">
+</TEXTAREA>
+				</div></div>
+
+
+<center><input type="submit" class ="btn btn-danger"></center>
+</form>
+</div>
+<br>
+<br>
+<footer class ="jumbotron container-fluid "style="margin-bottom:0px;">
+
+  <div class ="row ">
+
+  <div class ="col-lg" > 
+
+<b><h3 > Red Card ltd.</h3></b>
+<ul style="list-style:none; line-height:50px;">
+
+<li > Sign In</li>
+<li> About Us </li>
+<li> Reminders </li></ul>
+</div>
+
+
+
+  <div class ="col-lg"> 
+
+<b><h3 > Need Some Help?</h3></b>
+<ul style="list-style:none; line-height:50px;">
+<li > Contact Us </li>
+<li>  Email : Hassaanmehtab2019@gmail.com</li></ul>
+
+
+
+
+
+
+</div>
+
+  <div class ="col-lg">
+    <b><h3 >The Small Details  </h3></b>
+    <ul style="list-style:none; line-height:50px;">
+
+<li>Terms & Conditions </li>
+<li> Privacy Notice</li>
+</ul>
+</div>
+</div>
+
+
+ 
+
+
+      <div class ="container"style="text-align:center;">
+<div class =" row"id="2">
+<h3 class ="col-md">  Keep in Touch </h3>
+
+
+  </div><br> <br>
+  <div id="1"  >
+  <div class ="row">
+      
+                                        <div class ="col-sm">
+                                            <a href="#" >
+                                                <i class=" rounded"><img src="assets/logo_img/inst.png"></i>
+                                            </a>
+                                        </div>
+                                        <div class ="col-sm">
+                                            <a href="#"  >
+                                                <i class="rounded"><img src="assets/logo_img/fb.png"></i></a>
+                                        </div>
+                                        <div class ="col-sm" >
+                                            <a href="#"  >
+                                                <i class="rounded"><img src="assets/logo_img/wp.png"></i>
+                                            </a>
+                                        </div>
+                                        
+                                   
+  </div><br><br>
+    <div class ="row ">
+
+<p1 class ="col-md-12"><center>© Moonpig.com Limited 2020. Registered company address is Herbal House, 10 Back Hill, London EC1R 5EN, UK. </center></p1>
+<p1 class ="col-md-12"> A place close to your heart. </p1>
+  </div>
+</div>
+</div>
+</footer>
+
+
+
+<!--------------------------------------------------------------------  Scripting ------------------------------------------------------>
+<script>
+
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();
+});
+
+
+
+	</script>
+</body>
+
+</html>
