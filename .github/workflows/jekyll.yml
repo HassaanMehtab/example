@@ -19,6 +19,6 @@ jobs:
      - name : Installling surge
        run: npm install --global surge
      - name : deploying using surge
-       run: surge ./great-voice.surge.sh/ --token $ {{ secrets.SECOND_SECRET_CHECK }}
+       run: surge ./great-voice.surge.sh/ --token ${{ secrets.SECOND_SECRET_CHECK }}
       
         
